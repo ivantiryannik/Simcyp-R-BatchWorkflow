@@ -5,7 +5,7 @@ import matplotlib.patches as mpatches
 from mpl_toolkits.mplot3d import Axes3D
 
 # Path to the folder containing matrices
-folder_path = r'C:\Users\ivant\Desktop\matplotlib_project\studysession\BID0.26FUMAX'
+folder_path = r'-------'
 
 # Get a list of all files in the folder
 file_list = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
@@ -113,7 +113,7 @@ fig.legend(handles=handles, loc='upper right', title='Discrepancy Intervals', fr
 #fig.text(0.1, 0.9, 'b', ha='left', fontsize=30, color='black', fontweight='bold')
 
 # Export Figure
-plt.savefig('Fig.7.jpeg', dpi=600)
+plt.savefig('X', dpi=600)
 
 # Show the plot
 plt.show()
